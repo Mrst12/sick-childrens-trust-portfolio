@@ -1,4 +1,4 @@
-# Sick Children's Trust Portfolio
+# Sick Children's Trust
 
 ## Introduction
 
@@ -9,30 +9,32 @@ We spent the whole day at my daughters bedside in intensive care, then high depe
 It was one act of kindness that will never be forgotten from the Sick Children's Trust.
 The aim of this website is to raise the profile of the Sick Children's Trust and broaden the scope to show people they are there if they should ever need their help, also most importantly give something back.
 
-## Planning
+## User Experience (UX)
 
-### Strategy
+- ### user stories
+    - #### First Time User Goals
+        1. As a First time user, I want to easily navigate around the website.
+        2. As a first time user, I want the content to be easily understandable and relevant.
+        3. As a first time user, I want to know that the company is trustworthy, and genuine via other users testimonials.
+        4. As a first time user, I want to see the social side of the company with links to their pages.
 
-- The site aims to reach out to the general public, who have children or teenagers that are sick needing hospital care, where the family live too far away to return to the hospital when their child has to remain.
-- The site aims to be easy to use, with clear directions as to what each page of the website is intended for.
-- The aim of the website is to give the user all the necessary information should they ever need to use the service.
+    - #### Returning User Goals
+        1. As a returning user, I want to find all relevant information and have access to a contact, should I have a specific question.
+        2. As a returning user, I want upto date information and support.
 
-### Scope
-
-#### Requirements of the site
-
-- Easy navigation from one page to the next, and also on the page itself.
-- A mixture of images, text, and links so the information is not repetitive.
-- Same page layout across the pages for ease of use.
+    - #### Frequent User Goals
+        1. As a frequent user, I want content to remain accessible.
+        2. As a frequent user, I want content to have been updated where relevant.
+    
 
 
-### Structure
 
-- The site will be the same layout throughtout the pages for ease of use.
-- Any links will be opened in a new tab so the user can redirect back to the main site, without using the browser buttons.
-- The site aims to be intuitive, with no hidden content so the user knows what information is available.
 
-### Skeleton
+
+
+
+
+
 
 #### Wireframes
     
@@ -54,13 +56,7 @@ The aim of this website is to raise the profile of the Sick Children's Trust and
     
 
 
-### Surface
 
-- Colours and logo's will be taken from the main Sick Children's Trust website, so the user can see a connection between the two sites.
-- Layouts across the pages will be consistent with the header and footer being the same.
-- Content aims to be relevant, intuitive and understandable with clear direction on what each page is for.
-- The whole site aims to be informative and helpful to those that need the service.
-- The site will be linked to the Main Sick Children's Trust website, so if any other information is required, the user will have the capability of obtaining the information easily.
 
 ## Features
 ## Technologies used
