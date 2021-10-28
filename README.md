@@ -36,21 +36,23 @@ The aim of this website is to raise the profile of the Sick Children's Trust and
 
 #### Wireframes
     
-[Desktop wireframe for the homepage](./assets/wireframes/homepage-sick-children.png)
+[Desktop wireframe for the homepage](./assets/wireframes/home-desktop.png)
 
-[Tablet/mobile wireframe for homepage](./assets/wireframes/homepage-tablet-mobile.png)
+[Tablet/mobile wireframe for the homepage](./assets/wireframes/home-tablet-mobile.png)
 
-[Desktop wireframe for the houses page](./assets/wireframes/houses-page.png)
+[Desktop wireframe for the about page](./assets/wireframes/about-desktop.png)
 
-[Tablet wireframe for the houses page](./assets/wireframes/houses-page-tablet.png)
+[Tablet/mobile wireframe for the about page](./assets/wireframes/about-tablet-mobile.png)
 
-[Mobile wireframe for the houses page](./assets/wireframes/houses-page-mobile.png)
+[Desktop wireframe for the houses page](./assets/wireframes/houses-desktop.png)
 
-[Desktop wireframe for the subscribe page](./assets/wireframes/subscribe-page.png)
+[Tablet/mobile wireframe for the houses page](./assets/wireframes/houses-tablet-mobile.png)
 
-[Tablet/mobile wireframe for the subscribe page](./assets/wireframes/subscribe-page-tablet-mobile.png)
+[Desktop wireframe for the donate page](./assets/wireframes/donate-desktop.png)
+
+[Tablet/mobile wireframe for the donate page](./assets/wireframes/donate-tablet-mobile.png)
     
-- The site will try to keep the information on each page relevant, clear and uncluttered.
+
 
 ### Surface
 
