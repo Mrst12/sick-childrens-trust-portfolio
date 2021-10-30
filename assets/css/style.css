@@ -17,3 +17,18 @@ body {
     margin-top:30px;
 
 }
+
+/*navigational elements*/
+
+#menu {
+    float: right;
+    font-size: 110%;
+    letter-spacing: 2px;
+}
+
+#menu li {
+    float: left;
+    list-style: none;
+    margin-right: 30px;
+    margin-top: 30px;
+}
