@@ -12,10 +12,17 @@ body {
     color: #0A0A0A;
 }
 
+h1 {
+    text-align: center;
+    margin:30px;
+    color: #fff;
+}
+
 #logo {
     float: left;
     margin-left: 30px;
     margin-top:30px;
+    margin-bottom: 30px;
 }
 
 /*navigational elements*/
@@ -46,8 +53,24 @@ body {
     border-bottom: 1px solid #25457E;
 }
 
-
-
 .active {
     border-bottom: 1px solid #25457E;
+}
+
+/*top section styling*/
+
+#top-header {
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #CF2C91;
+}
+
+#top-header p {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.2em;
+    margin: 30px;
+    color: #fff;
 }
