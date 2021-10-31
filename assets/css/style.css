@@ -74,3 +74,26 @@ h1 {
     margin: 30px;
     color: #fff;
 }
+
+/*testimonial section*/
+
+#testimonials {
+    height: 400px;
+}
+
+#left-testimonials {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-testimonials {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-testimonials {
+    width: 33%;
+    margin: 0 auto;
+}
