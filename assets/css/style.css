@@ -9,13 +9,13 @@
 body {
     font-family: Nunito, sans-serif;
     font-weight: 300;
+    color: #0A0A0A;
 }
 
 #logo {
     float: left;
     margin-left: 30px;
     margin-top:30px;
-
 }
 
 /*navigational elements*/
@@ -26,9 +26,28 @@ body {
     letter-spacing: 2px;
 }
 
+#menu, #logo {
+    line-height: 75px;
+}
+
 #menu li {
     float: left;
     list-style: none;
     margin-right: 30px;
     margin-top: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #CF2C91;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #25457E;
+}
+
+
+
+.active {
+    border-bottom: 1px solid #25457E;
 }
