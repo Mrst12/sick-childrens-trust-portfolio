@@ -168,3 +168,28 @@ hr {
     height: 100%;
     border-radius: 50%;
 }
+
+/*footer section*/
+
+footer {
+    height: 200px;
+    background-color:#25457E;
+}
+
+
+
+.social-links > li {
+    display: inline;
+}
+
+.social-links i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 3%;
+    color: #fff;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+}
