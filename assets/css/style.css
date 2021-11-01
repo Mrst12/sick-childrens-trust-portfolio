@@ -111,3 +111,23 @@ hr {
     clear: both;
     margin-bottom: 50px;
 }
+
+.right-side-testimonials {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-side-testimonials h2 {
+    text-align: right;
+}
+
+.right-side-testimonials p {
+    text-align: right;
+}
+
+.right-side-testimonials a {
+    text-align: right;
+}
