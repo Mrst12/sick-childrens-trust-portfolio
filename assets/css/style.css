@@ -131,3 +131,39 @@ hr {
 .right-side-testimonials a {
     text-align: right;
 }
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color:#CF2C91;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#circle-container2 {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color:#CF2C91;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#circle-image {
+    background: url("../images/sct baby pic.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#circle-image2 {
+    background: url(../images/Neive.jpg) no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
