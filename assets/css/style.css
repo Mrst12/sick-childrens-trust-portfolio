@@ -78,7 +78,7 @@ h1 {
 /*testimonial section*/
 
 #testimonials {
-    height: 400px;
+    height: 900px;
 }
 
 #left-testimonials {
@@ -96,4 +96,18 @@ h1 {
 #center-testimonials {
     width: 33%;
     margin: 0 auto;
+}
+
+hr {
+    border-top: 1px solid #CF2C91;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-side-testimonials {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
