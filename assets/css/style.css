@@ -51,6 +51,7 @@ h1 {
 
 #menu a:hover {
     border-bottom: 1px solid #25457E;
+    background-color: #25457E;
 }
 
 .active {
