@@ -205,3 +205,29 @@ footer p {
 i:hover {
     background-color: #CF2C91;
 }
+
+/*About page*/
+
+#about-us {
+    height: 1200px;
+}
+
+#left-about-us {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#history {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+.left-about {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;   
+}
