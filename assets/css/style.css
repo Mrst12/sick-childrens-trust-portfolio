@@ -14,14 +14,14 @@ body {
 
 h1 {
     text-align: center;
-    margin:30px;
+    margin: 30px;
     color: #fff;
 }
 
 #logo {
     float: left;
     margin-left: 30px;
-    margin-top:30px;
+    margin-top: 30px;
     margin-bottom: 30px;
     height: 100px;
     width: 200px;
@@ -35,7 +35,8 @@ h1 {
     letter-spacing: 2px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -148,7 +149,7 @@ hr {
     height: 300px;
     padding: 30px;
     border-style: solid;
-    border-color:#CF2C91;
+    border-color: #CF2C91;
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
@@ -160,7 +161,7 @@ hr {
     height: 300px;
     padding: 30px;
     border-style: solid;
-    border-color:#CF2C91;
+    border-color: #CF2C91;
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
@@ -183,10 +184,14 @@ hr {
 
 footer {
     height: 200px;
-    background-color:#25457E;
+    background-color: #25457E;
 }
 
-.social-links > li {
+.social-links {
+    text-align: center;
+}
+
+.social-links>li {
     display: inline;
 }
 
@@ -209,7 +214,7 @@ i:hover {
 /*About page*/
 
 #about-us {
-    height: 1150px;
+    height: 900px;
 }
 
 #left-about-us {
@@ -229,7 +234,7 @@ i:hover {
     float: right;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;   
+    margin-bottom: 50px;
 }
 
 .our-history {
@@ -237,10 +242,10 @@ i:hover {
     float: left;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;    
+    margin-bottom: 50px;
 }
 
 .our-history p {
-    padding: 20px;
+    /* padding: 20px;*/
     text-align: right;
 }
