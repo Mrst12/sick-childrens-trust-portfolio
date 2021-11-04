@@ -145,8 +145,8 @@ hr {
 }
 
 #circle-container {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     padding: 30px;
     border-style: solid;
     border-color: #CF2C91;
@@ -157,8 +157,8 @@ hr {
 }
 
 #circle-container2 {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     padding: 30px;
     border-style: solid;
     border-color: #CF2C91;
@@ -214,19 +214,18 @@ i:hover {
 /*About page*/
 
 #about-us {
-    height: 900px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #left-about-us {
     padding-top: 30px;
     width: 33%;
-    float: left;
 }
 
 #history {
     padding-top: 30px;
     width: 33%;
-    float: right;
 }
 
 .left-about {
@@ -246,6 +245,22 @@ i:hover {
 }
 
 .our-history p {
-    /* padding: 20px;*/
     text-align: right;
+}
+
+#center-images {
+    width: 33%;
+    margin: 0 auto 20px; 
+}
+
+#history-image {
+    background: url("../images/history.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%; 
+}
+
+#about-image {
+    background: url("../images/Michael-crawford.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%; 
 }
