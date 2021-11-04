@@ -268,7 +268,16 @@ i:hover {
 
 /*houses page*/
 
-#map {
-    background: url("../images/SCT-map-2021-smaller.png");
-    height: 100%;
+#houses {
+    display: flex;
+}
+
+#house-map {
+    width: 50%;
+}
+
+#map-img {
+    height: auto;
+    max-width: 100%;
+
 }
