@@ -265,3 +265,10 @@ i:hover {
     height: 100%;
     border-radius: 50%; 
 }
+
+/*houses page*/
+
+#map {
+    background: url("../images/SCT-map-2021-smaller.png");
+    height: 100%;
+}
