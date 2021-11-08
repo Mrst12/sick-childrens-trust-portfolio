@@ -374,14 +374,19 @@ input[type=tel] {
     border-radius: 10px;
 }
 
-/*radio buttons
-input[type=radio] {
-    margin-top: -1px;
-    vertical-align: text-bottom;
+#amount {
+    border: 1px solid #25457E;
+    border-radius: 10px;
+    height: 30px;
 }
 
-.radio {
-    vertical-align: text-bottom;
-    margin:0;
-    margin-top: -1px;
-}*/
+.donation {
+    display: inline-block;
+    margin: 20px 100px;
+    padding: 20px;
+    
+}
+
+.amount {
+    display: block;
+}
