@@ -331,3 +331,21 @@ i:hover {
     background-color: #CF2C91;
     font-size: 1.25em;
 }
+
+/*form section*/
+
+#form-section {
+    height: 900px;
+}
+
+input {
+    width: 100%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #25457E;
+  }
