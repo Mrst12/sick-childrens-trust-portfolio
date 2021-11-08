@@ -251,19 +251,19 @@ i:hover {
 
 #center-images {
     width: 33%;
-    margin: 0 auto 20px; 
+    margin: 0 auto 20px;
 }
 
 #history-image {
     background: url("../images/history.jpg") no-repeat center center;
     height: 100%;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 
 #about-image {
     background: url("../images/Michael-crawford.jpg") no-repeat center center;
     height: 100%;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 
 /*houses page*/
@@ -309,7 +309,7 @@ i:hover {
 }
 
 .gray {
-    color:gray;
+    color: gray;
 }
 
 .orange {
@@ -338,6 +338,11 @@ i:hover {
     height: 900px;
 }
 
+#donate-form {
+    margin: 30px;
+    padding: 30px;
+}
+
 input {
     width: 100%;
 }
@@ -348,4 +353,35 @@ input[type=text] {
     margin: 8px 0;
     box-sizing: border-box;
     border: 1px solid #25457E;
-  }
+    border-radius: 10px;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #25457E;
+    border-radius: 10px;
+}
+
+input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border: 1px solid #25457E;
+    border-radius: 10px;
+}
+
+/*radio buttons
+input[type=radio] {
+    margin-top: -1px;
+    vertical-align: text-bottom;
+}
+
+.radio {
+    vertical-align: text-bottom;
+    margin:0;
+    margin-top: -1px;
+}*/
