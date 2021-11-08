@@ -321,3 +321,13 @@ i:hover {
 #top-header a {
     color: #25457E;
 }
+
+#thankyou {
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    background-color: #CF2C91;
+    font-size: 1.25em;
+}

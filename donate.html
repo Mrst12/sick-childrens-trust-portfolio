@@ -45,7 +45,8 @@
         </p>
     </section>
     <section>
-        <form action="formdump.codeinstitute.net" method="POST">
+        <form action="/thankyou.html" method="GET">
+        
             <fieldset>
                 <legend>
                     Your Details
@@ -62,7 +63,35 @@
                 <label for="email">Email Address:</label>
                 <input id="email" type="email" name="email" placeholder="Your Email" required>
 
+                <label for="telephone">Telephone Number:</label>
+                <input id="telephone" type="tel" name="telephone_number" placeholder="Telephone number">
+            </fieldset>
 
+            <fieldset>
+                <legend>
+                    Donation Details
+                </legend>
+                <label for="single">Single Donation</label>
+                <input id="single" type="radio" name="frequency" value="single_donation">
+
+                <label for="monthly">Monthly Donation</label>
+                <input id="monthly" type="radio" name="frequency" value="monthly_donation" required>
+
+                <label for="annual">Annual Donation</label>
+                <input id="annual" type="radio" name="frequency" value="annual_donation">
+
+                <label for="amount">Donation Amount:</label>
+                <input list="donation-amount" id="amount" type="number" name="donation-amount">
+                <datalist id="donation-amount">
+                    <option value="10.00"></option>
+                    <option value="20.00"></option>
+                    <option value="30.00"></option>
+                    <option value="40.00"></option>
+                    <option value="50.00"></option>
+                </datalist>
+
+                <input type="reset">
+                <input type="submit" value="Donate">
 
 
             </fieldset>
