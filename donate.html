@@ -48,19 +48,19 @@
         <form id="donate-form" action="/thankyou.html" method="GET">
 
             <label for="fname">First Name:</label>
-            <input id="fname" type="text" name="first_name" placeholder="First Name" required>
+            <input id="fname" type="text" name="first_name" required>
             </div>
             <label for="lname">Last Name:</label>
-            <input id="lname" type="text" name="last_name" placeholder="Last Name" required>
+            <input id="lname" type="text" name="last_name" required>
 
             <label for="address">Address:</label>
-            <input id="address" type="text" name="address" placeholder="Address">
+            <input id="address" type="text" name="address">
 
             <label for="email">Email Address:</label>
-            <input id="email" type="email" name="email" placeholder="Your Email" required>
+            <input id="email" type="email" name="email" required>
 
             <label for="telephone">Telephone Number:</label>
-            <input id="telephone" type="tel" name="telephone_number" placeholder="Telephone number">
+            <input id="telephone" type="tel" name="telephone_number">
 
             <div class="donation">
                 <label for="single">Single Donation</label>
@@ -78,20 +78,20 @@
             </div>
 
             <div class="amount">
-            <label for="amount">Donation Amount:</label>
-            <input list="donation-amount" id="amount" type="number" name="donation-amount">
-            <datalist id="donation-amount">
-                <option value="10.00"></option>
-                <option value="20.00"></option>
-                <option value="30.00"></option>
-                <option value="40.00"></option>
-                <option value="50.00"></option>
-            </datalist>
+                <label for="amount">Donation Amount:</label>
+                <input list="donation-amount" id="amount" type="number" name="donation-amount">
+                <datalist id="donation-amount">
+                    <option value="10.00"></option>
+                    <option value="20.00"></option>
+                    <option value="30.00"></option>
+                    <option value="40.00"></option>
+                    <option value="50.00"></option>
+                </datalist>
             </div>
-
-            <input type="reset">
-            <input type="submit" value="Donate">
-
+            <div class="btn">
+                <input class="donate-btn" type="reset">
+                <input class="donate-btn" type="submit" value="Donate">
+            </div>
         </form>
 
     </section>
