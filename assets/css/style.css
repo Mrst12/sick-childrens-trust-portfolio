@@ -397,7 +397,7 @@ input[type=tel] {
     display: inline-block;
     margin: 20px 100px;
     padding: 20px;
-    
+
 }
 
 .amount {
@@ -427,7 +427,7 @@ input[type=tel] {
 
 input:hover {
     background-color: #CF2C91;
-    color: #fff; 
+    color: #fff;
 }
 
 /*media queries*/
@@ -443,16 +443,65 @@ input:hover {
         margin: 30px 230px 0 230px;
     }
 
-    #top-header  {
+    #top-header {
         height: 250px;
     }
 
-    #left-testimonials, #right-testimonials {
-        width: 50%;
-        padding: 0;
+    #testimonials {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
 
-   #center-testimonials {
-       padding-top: 600px;
-   }
+    #left-testimonials {
+        margin: 0 auto;
+
+    }
+
+    #left-testimonials p {
+        font-size: 2vw;
+        line-height: 1.5;
+        width:100%;
+        letter-spacing: 2px;
+    }
+
+    #right-testimonials {
+        margin-left: 300px;
+    
+    }
+
+    #right-testimonials p {
+        font-size: 2vw;
+        line-height: 1.5;
+        width:100%;
+        text-align: left;
+        letter-spacing: 2px;
+    }
+
+    #right-testimonials h2 {
+        text-align: center;
+    }
+
+    
+
+    #circle-container {
+        border-style: none;
+        padding:0;
+    }
+
+    #circle-image {
+        border-radius: 50%;
+        border: 1px solid #CF2C91;
+    }
+
+    #circle-container2{
+        border-style: none;
+        padding:0;
+    }
+
+    #circle-image2 {
+        border-radius: 50%;
+        border: 1px solid #CF2C91;
+    }
+
 }
