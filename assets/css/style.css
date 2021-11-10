@@ -83,6 +83,8 @@ h1 {
 
 #testimonials {
     display: flex;
+    flex-direction: row;
+    width: 100%;
     justify-content: space-between;
 }
 
@@ -451,29 +453,33 @@ input:hover {
         display: flex;
         flex-direction: column;
         width: 100%;
+        justify-content: center;
+        align-content: center;
+
     }
 
     #left-testimonials {
         margin: 0 auto;
+        float: none;
 
     }
 
     #left-testimonials p {
         font-size: 2vw;
         line-height: 1.5;
-        width:100%;
+        width: 100%;
         letter-spacing: 2px;
     }
 
     #right-testimonials {
-        margin-left: 300px;
-    
+       /* margin-left: 300px;*/
+
     }
 
     #right-testimonials p {
         font-size: 2vw;
         line-height: 1.5;
-        width:100%;
+        width: 100%;
         text-align: left;
         letter-spacing: 2px;
     }
@@ -482,26 +488,24 @@ input:hover {
         text-align: center;
     }
 
-    
-
-    #circle-container {
+     #circle-container, #circle-container2 {
         border-style: none;
-        padding:0;
+        padding: 0;
     }
 
-    #circle-image {
+    #circle-image, #circle-image2 {
         border-radius: 50%;
         border: 1px solid #CF2C91;
     }
+}
 
-    #circle-container2{
-        border-style: none;
-        padding:0;
+@media screen and (max-width: 1200px) {
+    #right-testimonials, #left-testimonials,
+    #left-about-us, #history {
+        width: 25%;
     }
 
-    #circle-image2 {
-        border-radius: 50%;
-        border: 1px solid #CF2C91;
+    #form-section {
+        height: 1000px;
     }
-
 }
