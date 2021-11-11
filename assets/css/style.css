@@ -208,16 +208,18 @@ i:hover {
 #about-us {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
 }
 
 #left-about-us {
     padding-top: 30px;
-    width: 33%;
+    width: 100%;
 }
 
 #history {
     padding-top: 30px;
-    width: 33%;
+    width: 100%;
 }
 
 .left-about {
@@ -241,8 +243,20 @@ i:hover {
 }
 
 #center-images {
-    width: 33%;
-    margin: 0 auto 20px;
+    width: 100%;
+}
+
+#about-container,
+#history-container {
+    width: 350px;
+    height: 350px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #CF2C91;
+    border-width: 1px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #history-image {
@@ -424,7 +438,9 @@ input:hover {
 /*media queries*/
 
 @media screen and (max-width: 1024px) {
-    #circle-container, #circle-container2 {
+
+    #circle-container,
+    #circle-container2 {
         margin-top: 150px;
     }
 
@@ -443,7 +459,8 @@ input:hover {
         margin-bottom: 0;
     }
 
-    #testimonials {
+    #testimonials,
+    #about-us {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -451,12 +468,18 @@ input:hover {
         align-content: center;
 
     }
-    
-    #left-testimonials, #right-testimonials {
+
+    #left-testimonials,
+    #right-testimonials,
+    #left-about-us,
+    #history {
         margin-left: 30px;
     }
 
-    .left-side-testimonials, .right-side-testimonials {
+    .left-side-testimonials,
+    .right-side-testimonials,
+    .left-about,
+    .our-history {
         width: 90%;
         float: none;
         text-align: center;
@@ -467,9 +490,16 @@ input:hover {
         text-align: center;
     }
 
-    #circle-container, #circle-container2 {
+    #circle-container,
+    #circle-container2,
+    #about-container,
+    #history-container {
         margin-left: 250px;
         margin-top: 30px;
+    }
+
+    .our-history p {
+        text-align: center;
     }
 }
 
@@ -482,7 +512,10 @@ input:hover {
         margin-left: 225px;
     }
 
-    #circle-container, #circle-container2 {
+    #circle-container,
+    #circle-container2,
+    #about-container,
+    #history-container {
         margin-left: 200px;
     }
 }
@@ -496,7 +529,10 @@ input:hover {
         margin-left: 225px;
     }
 
-    #circle-container, #circle-container2 {
+    #circle-container,
+    #circle-container2,
+    #about-container,
+    #history-container {
         margin-left: 125px;
     }
 }
@@ -510,7 +546,10 @@ input:hover {
         margin-left: 125px;
     }
 
-    #circle-container, #circle-container2 {
+    #circle-container,
+    #circle-container2,
+    #about-container,
+    #history-container {
         margin-left: 100px;
     }
 }
@@ -520,7 +559,10 @@ input:hover {
         letter-spacing: 0;
     }
 
-    #circle-container, #circle-container2 {
+    #circle-container,
+    #circle-container2,
+    #about-container,
+    #history-container {
         margin-left: 50px;
     }
 }
@@ -536,10 +578,14 @@ input:hover {
 }
 
 @media screen and (max-width: 426px) {
-    #circle-container, #circle-container2 {
-        margin-left: 30px;
-    } 
 
+    #circle-container,
+    #circle-container2, #about-container,
+    #history-container
+     {
+        margin-left: 30px;
+    }
+    
     #menu {
         margin-left: 100px;
     }
@@ -554,17 +600,23 @@ input:hover {
         margin-left: 100px;
     }
 
-    #circle-container, #circle-container2 {
+    #circle-container,
+    #circle-container2, #about-container,
+    #history-container {
         margin-left: 5px;
     }
 }
 
 @media screen and (max-width: 376px) {
-    #left-testimonials, #right-testimonials {
+
+    #left-testimonials,
+    #right-testimonials, #left-about-us, #history {
         margin-left: 10px;
     }
 
-    #circle-container, #circle-container2 {
+    #circle-container,
+    #circle-container2, #about-container,
+    #history-container {
         margin-left: 10px;
         padding: 5px;
     }
@@ -577,7 +629,9 @@ input:hover {
 }
 
 @media screen and (max-width: 320px) {
-    #left-testimonials, #right-testimonials {
+
+    #left-testimonials,
+    #right-testimonials, #left-about-us, #history {
         margin-left: 0;
     }
 
@@ -585,12 +639,10 @@ input:hover {
         margin-left: 50px;
     }
 
-    #circle-container, #circle-container2 {
-        padding:0;
+    #circle-container,
+    #circle-container2, #about-container,
+    #history-container {
+        padding: 0;
         margin-left: 0;
     }
 }
-
-
-
-
