@@ -1,720 +1,695 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+	margin: 0;
+	padding: 0;
+	border: none;
 }
 
 body {
-    font-family: Nunito, sans-serif;
-    font-weight: 300;
-    color: #0A0A0A;
+	font-family: Nunito, sans-serif;
+	font-weight: 300;
+	color: #0A0A0A;
 }
 
 h1 {
-    text-align: center;
-    margin: 30px;
-    color: #fff;
+	text-align: center;
+	margin: 30px;
+	color: #fff;
 }
 
 #logo {
-    float: left;
-    margin-left: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    height: 100px;
-    width: 200px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	height: 100px;
+	width: 200px;
 }
+
 
 /*navigational elements*/
 
 #menu {
-    float: right;
-    font-size: 110%;
-    letter-spacing: 2px;
+	float: right;
+	font-size: 110%;
+	letter-spacing: 2px;
 }
 
 #menu,
 #logo {
-    line-height: 75px;
+	line-height: 75px;
 }
 
 #menu li {
-    float: left;
-    list-style: none;
-    margin-right: 30px;
-    margin-top: 30px;
+	float: left;
+	list-style: none;
+	margin-right: 30px;
+	margin-top: 30px;
 }
 
 #menu a {
-    text-decoration: none;
-    color: #CF2C91;
+	text-decoration: none;
+	color: #CF2C91;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #25457E;
-    background-color: #25457E;
+	border-bottom: 1px solid #25457E;
+	background-color: #25457E;
 }
 
 .active {
-    border-bottom: 1px solid #25457E;
+	border-bottom: 1px solid #25457E;
 }
+
 
 /*top section styling*/
 
 #top-header {
-    height: auto;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    background-color: #CF2C91;
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	background-color: #CF2C91;
 }
 
 #top-header p {
-    text-align: center;
-    line-height: 1.5;
-    font-size: 1.2em;
-    margin: 30px;
-    color: #fff;
+	text-align: center;
+	line-height: 1.5;
+	font-size: 1.2em;
+	margin: 30px;
+	color: #fff;
 }
+
 
 /*testimonial section*/
 
 #testimonials {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-between;
 }
 
 #left-testimonials {
-    padding-top: 30px;
-    width: 100%;
-    margin-right: 30px;
+	padding-top: 30px;
+	width: 100%;
+	margin-right: 30px;
 }
 
 #right-testimonials {
-    padding-top: 30px;
-    width: 100%;
-    margin-left: 30px;
+	padding-top: 30px;
+	width: 100%;
+	margin-left: 30px;
 }
 
 #center-testimonials {
-    width: 100%;
+	width: 100%;
 }
 
 hr {
-    border-top: 1px solid #CF2C91;
-    width: 100%;
-    margin: 5px 0;
+	border-top: 1px solid #CF2C91;
+	width: 100%;
+	margin: 5px 0;
 }
 
 .left-side-testimonials {
-    width: 60%;
-    float: right;
-    margin-bottom: 50px;
+	width: 60%;
+	float: right;
+	margin-bottom: 50px;
 }
 
 .right-side-testimonials {
-    width: 60%;
-    float: left;
-    margin-bottom: 50px;
+	width: 60%;
+	float: left;
+	margin-bottom: 50px;
 }
 
 .right-side-testimonials p {
-    text-align: right;
+	text-align: right;
 }
 
 .right-side-testimonials a {
-    text-align: right;
+	text-align: right;
 }
 
 .right-side-testimonials a:hover {
-    background-color: #CF2C91;
+	background-color: #CF2C91;
 }
 
 .left-side-testimonials a:hover {
-    background-color: #CF2C91;
+	background-color: #CF2C91;
 }
 
 #circle-container {
-    width: 350px;
-    height: 350px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #CF2C91;
-    border-width: 1px;
-    border-radius: 50%;
-    margin-top: 50px;
+	width: 350px;
+	height: 350px;
+	padding: 30px;
+	border-style: solid;
+	border-color: #CF2C91;
+	border-width: 1px;
+	border-radius: 50%;
+	margin-top: 50px;
 }
 
 #circle-container2 {
-    width: 350px;
-    height: 350px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #CF2C91;
-    border-width: 1px;
-    border-radius: 50%;
-    margin-top: 50px;
+	width: 350px;
+	height: 350px;
+	padding: 30px;
+	border-style: solid;
+	border-color: #CF2C91;
+	border-width: 1px;
+	border-radius: 50%;
+	margin-top: 50px;
 }
 
 #circle-image {
-    background: url("../images/sct baby pic.jpg") no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
+	background: url("../images/sct baby pic.jpg") no-repeat center center;
+	height: 100%;
+	border-radius: 50%;
 }
 
 #circle-image2 {
-    background: url(../images/Neive.jpg) no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
+	background: url(../images/Neive.jpg) no-repeat center center;
+	height: 100%;
+	border-radius: 50%;
 }
+
 
 /*footer section*/
 
 footer {
-    height: 200px;
-    background-color: #25457E;
+	height: 200px;
+	background-color: #25457E;
 }
 
 .social-links {
-    text-align: center;
+	text-align: center;
 }
 
 .social-links>li {
-    display: inline;
+	display: inline;
 }
 
 .social-links i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 3%;
-    color: #fff;
+	font-size: 160%;
+	margin: 1%;
+	padding: 3%;
+	color: #fff;
 }
 
 footer p {
-    text-align: center;
-    color: #fff;
+	text-align: center;
+	color: #fff;
 }
 
 i:hover {
-    background-color: #CF2C91;
+	background-color: #CF2C91;
 }
+
 
 /*About page*/
 
 #about-us {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 100%;
 }
 
 #left-about-us {
-    padding-top: 30px;
-    width: 100%;
+	padding-top: 30px;
+	width: 100%;
 }
 
 #history {
-    padding-top: 30px;
-    width: 100%;
+	padding-top: 30px;
+	width: 100%;
 }
 
 .left-about {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
+	width: 60%;
+	float: right;
+	line-height: 20px;
+	clear: both;
+	margin-bottom: 50px;
 }
 
 .our-history {
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
+	width: 60%;
+	float: left;
+	line-height: 20px;
+	clear: both;
+	margin-bottom: 50px;
 }
 
 .our-history p {
-    text-align: right;
+	text-align: right;
 }
 
 #center-images {
-    width: 100%;
+	width: 100%;
 }
 
 #about-container,
 #history-container {
-    width: 350px;
-    height: 350px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #CF2C91;
-    border-width: 1px;
-    border-radius: 50%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+	width: 350px;
+	height: 350px;
+	padding: 30px;
+	border-style: solid;
+	border-color: #CF2C91;
+	border-width: 1px;
+	border-radius: 50%;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 #history-image {
-    background: url("../images/history.jpg") no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
+	background: url("../images/history.jpg") no-repeat center center;
+	height: 100%;
+	border-radius: 50%;
 }
 
 #about-image {
-    background: url("../images/Michael-crawford.jpg") no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
+	background: url("../images/Michael-crawford.jpg") no-repeat center center;
+	height: 100%;
+	border-radius: 50%;
 }
+
 
 /*houses page*/
 
 h2 {
-    text-align: center;
-    margin: 10px;
+	text-align: center;
+	margin: 10px;
 }
 
 #houses {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 100%;
 }
 
 #house-map {
-    width: 100%;
+	width: 100%;
 }
 
 #map-img {
-    height: auto;
-    max-width: 100%;
-    margin-top: 50px;
+	height: auto;
+	max-width: 100%;
+	margin-top: 50px;
 }
 
 #labels p {
-    text-align: center;
+	text-align: center;
 }
 
 #labels {
-    width: 100%;
-    text-align: center;
-    margin: 40px 40px 40px 80px;
-    border: 1px solid #CF2C91;
+	width: 100%;
+	text-align: center;
+	margin: 40px 40px 40px 80px;
+	border: 1px solid #CF2C91;
 }
 
 #labels a:hover {
-    background-color: #25457E;
+	background-color: #25457E;
 }
 
 .blue {
-    color: lightblue;
+	color: lightblue;
 }
 
 .green {
-    color: green;
+	color: green;
 }
 
 .pink {
-    color: #CF2C91;
+	color: #CF2C91;
 }
 
 .gray {
-    color: gray;
+	color: gray;
 }
 
 .orange {
-    color: orange;
+	color: orange;
 }
+
 
 /*donate page*/
 
 h4 {
-    text-align: center;
-    margin-bottom: 20px;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 #top-header a {
-    color: #fff;
+	color: #fff;
 }
 
 #thankyou {
-    height: 300px;
-    width: 100%;
-    text-align: center;
-    overflow: hidden;
-    position: relative;
-    background-color: #CF2C91;
-    font-size: 1.25em;
+	height: 300px;
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	background-color: #CF2C91;
+	font-size: 1.25em;
 }
+
 
 /*form section*/
 
 #form-section {
-    height: auto;
+	height: auto;
 }
 
 #donate-form {
-    margin: 30px;
-    padding: 30px;
+	margin: 30px;
+	padding: 30px;
 }
 
 input {
-    width: 100%;
+	width: 100%;
 }
 
 input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 1px solid #25457E;
-    border-radius: 10px;
-    font-size: 100%;
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 1px solid #25457E;
+	border-radius: 10px;
+	font-size: 100%;
 }
 
 input[type=email] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 1px solid #25457E;
-    border-radius: 10px;
-    font-size: 100%;
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 1px solid #25457E;
+	border-radius: 10px;
+	font-size: 100%;
 }
 
 input[type=tel] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 20px 0;
-    box-sizing: border-box;
-    border: 1px solid #25457E;
-    border-radius: 10px;
-    font-size: 100%;
+	width: 100%;
+	padding: 12px 20px;
+	margin: 20px 0;
+	box-sizing: border-box;
+	border: 1px solid #25457E;
+	border-radius: 10px;
+	font-size: 100%;
 }
 
 #amount {
-    border: 1px solid #25457E;
-    border-radius: 10px;
-    height: 30px;
+	border: 1px solid #25457E;
+	border-radius: 10px;
+	height: 30px;
 }
 
 .donation {
-    display: inline-block;
-    margin: 20px 100px;
-    padding: 20px;
-
+	display: inline-block;
+	margin: 20px 100px;
+	padding: 20px;
 }
 
 .amount {
-    display: block;
+	display: block;
 }
 
 .donate-btn {
-    border: 1px solid #25457E;
-    border-radius: 10px;
-    margin-top: 30px;
-    width: 50%;
-    padding: 10px;
-    background-color: #CF2C91;
-    color: #fff;
-    font-size: 100%;
+	border: 1px solid #25457E;
+	border-radius: 10px;
+	margin-top: 30px;
+	width: 50%;
+	padding: 10px;
+	background-color: #CF2C91;
+	color: #fff;
+	font-size: 100%;
 }
 
 .btn {
-    display: block;
-    text-align: center;
+	display: block;
+	text-align: center;
 }
 
 .donate-btn:hover {
-    background-color: #25457E;
-    color: #fff;
+	background-color: #25457E;
+	color: #fff;
 }
 
 input:hover {
-    background-color: #CF2C91;
-    color: #fff;
+	background-color: #CF2C91;
+	color: #fff;
 }
+
 
 /*media queries*/
 
 @media screen and (max-width: 1024px) {
-
-    /*home and about page*/
-    #circle-container,
-    #circle-container2 {
-        margin-top: 150px;
-    }
-
-    /*houses page*/
-    #map-img {
-        max-width: 110%;
-        margin-top: 150px;
-    }
-
-    /*donate page*/
-    .donation{
-        margin: 20px 50px;
-    }
-
-    #thankyou {
-        height: 400px;
-    }
-
+	/*home and about page*/
+	#circle-container,
+	#circle-container2 {
+		margin-top: 150px;
+	}
+	/*houses page*/
+	#map-img {
+		max-width: 110%;
+		margin-top: 150px;
+	}
+	/*donate page*/
+	.donation {
+		margin: 20px 50px;
+	}
+	#thankyou {
+		height: 400px;
+	}
 }
 
 @media screen and (max-width: 920px) {
-    /*home and about pages*/
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 300px;
-    }
-
-    #logo {
-        margin-left: 350px;
-        margin-top: 30px;
-        margin-bottom: 0;
-    }
-
-    #testimonials,
-    #about-us, #houses {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        justify-content: center;
-        align-content: center;
-
-    }
-
-    #left-testimonials,
-    #right-testimonials,
-    #left-about-us,
-    #history {
-        margin-left: 30px;
-    }
-
-    .left-side-testimonials,
-    .right-side-testimonials,
-    .left-about,
-    .our-history {
-        width: 90%;
-        float: none;
-        text-align: center;
-        margin-left: 20px;
-    }
-
-    .right-side-testimonials p {
-        text-align: center;
-    }
-
-    #circle-container,
-    #circle-container2,
-    #about-container,
-    #history-container {
-        margin-left: 250px;
-        margin-top: 30px;
-    }
-
-    .our-history p {
-        text-align: center;
-    }
-
-    /*houses page*/
-    #map-img {
-        max-width: 80%;
-        
-    }
-
-    #house-map {
-        margin-left: 100px;
-    }
-
-    h2 {
-        margin-top: 30px;
-        margin-bottom: 0;
-    }
-
-    #labels {
-        margin: 0 0 50px 0;
-        border-left: none;
-        border-right: none;
-
-    }
-
-    /*donate page*/
-    .donation {
-        padding: 0;
-    }
+	/*home and about pages*/
+	#menu {
+		clear: left;
+		float: left;
+		margin-left: 300px;
+	}
+	#logo {
+		margin-left: 350px;
+		margin-top: 30px;
+		margin-bottom: 0;
+	}
+	#testimonials,
+	#about-us,
+	#houses {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		justify-content: center;
+		align-content: center;
+	}
+	#left-testimonials,
+	#right-testimonials,
+	#left-about-us,
+	#history {
+		margin-left: 30px;
+	}
+	.left-side-testimonials,
+	.right-side-testimonials,
+	.left-about,
+	.our-history {
+		width: 90%;
+		float: none;
+		text-align: center;
+		margin-left: 20px;
+	}
+	.right-side-testimonials p {
+		text-align: center;
+	}
+	#circle-container,
+	#circle-container2,
+	#about-container,
+	#history-container {
+		margin-left: 250px;
+		margin-top: 30px;
+	}
+	.our-history p {
+		text-align: center;
+	}
+	/*houses page*/
+	#map-img {
+		max-width: 80%;
+	}
+	#house-map {
+		margin-left: 100px;
+	}
+	h2 {
+		margin-top: 30px;
+		margin-bottom: 0;
+	}
+	#labels {
+		margin: 0 0 50px 0;
+		border-left: none;
+		border-right: none;
+	}
+	/*donate page*/
+	.donation {
+		padding: 0;
+	}
 }
 
 @media screen and (max-width: 768px) {
-    /*home and about page*/
-    #logo {
-        margin-left: 300px;
-    }
-
-    #menu {
-        margin-left: 225px;
-    }
-
-    #circle-container,
-    #circle-container2,
-    #about-container,
-    #history-container {
-        margin-left: 200px;
-    }
-
-    /*houses page*/
-    #map-img {
-        margin-top: 50px;
-    }
-
-    /*donate page*/
-    .donation {
-        margin: 20px;
-    }
+	/*home and about page*/
+	#logo {
+		margin-left: 300px;
+	}
+	#menu {
+		margin-left: 225px;
+	}
+	#circle-container,
+	#circle-container2,
+	#about-container,
+	#history-container {
+		margin-left: 200px;
+	}
+	/*houses page*/
+	#map-img {
+		margin-top: 50px;
+	}
+	/*donate page*/
+	.donation {
+		margin: 20px;
+	}
 }
 
 @media screen and (max-width: 624px) {
-    /*home and about pages*/
-    #menu {
-        margin-left: 150px;
-    }
-
-    #logo {
-        margin-left: 225px;
-    }
-
-    #circle-container,
-    #circle-container2,
-    #about-container,
-    #history-container {
-        margin-left: 125px;
-    }
+	/*home and about pages*/
+	#menu {
+		margin-left: 150px;
+	}
+	#logo {
+		margin-left: 225px;
+	}
+	#circle-container,
+	#circle-container2,
+	#about-container,
+	#history-container {
+		margin-left: 125px;
+	}
 }
 
 @media screen and (max-width: 548px) {
-    /*home and about pages*/
-    #logo {
-        margin-left: 175px;
-    }
-
-    #menu {
-        margin-left: 125px;
-    }
-
-    #circle-container,
-    #circle-container2,
-    #about-container,
-    #history-container {
-        margin-left: 100px;
-    }
+	/*home and about pages*/
+	#logo {
+		margin-left: 175px;
+	}
+	#menu {
+		margin-left: 125px;
+	}
+	#circle-container,
+	#circle-container2,
+	#about-container,
+	#history-container {
+		margin-left: 100px;
+	}
 }
 
 @media screen and (max-width: 500px) {
-   /*home and about pages*/
-    #menu {
-        letter-spacing: 0;
-    }
-
-    #circle-container,
-    #circle-container2,
-    #about-container,
-    #history-container {
-        margin-left: 50px;
-    }
+	/*home and about pages*/
+	#menu {
+		letter-spacing: 0;
+	}
+	#circle-container,
+	#circle-container2,
+	#about-container,
+	#history-container {
+		margin-left: 50px;
+	}
 }
 
 @media screen and (max-width: 459px) {
-    /*home and about pages*/
-    #menu li {
-        margin-right: 20px;
-    }
-
-    #logo {
-        margin-left: 150px;
-    }
-
-    /*houses page*/
-    #house-map {
-        margin-left: 50px;
-    }
+	/*home and about pages*/
+	#menu li {
+		margin-right: 20px;
+	}
+	#logo {
+		margin-left: 150px;
+	}
+	/*houses page*/
+	#house-map {
+		margin-left: 50px;
+	}
 }
 
 @media screen and (max-width: 426px) {
-
-    #circle-container,
-    #circle-container2, #about-container,
-    #history-container
-     {
-        margin-left: 30px;
-    }
-    
-    #menu {
-        margin-left: 100px;
-    }
+	#circle-container,
+	#circle-container2,
+	#about-container,
+	#history-container {
+		margin-left: 30px;
+	}
+	#menu {
+		margin-left: 100px;
+	}
 }
 
 @media screen and (max-width: 394px) {
-    #menu {
-        margin-left: 50px;
-    }
-
-    #logo {
-        margin-left: 100px;
-    }
-
-    #circle-container,
-    #circle-container2, #about-container,
-    #history-container {
-        margin-left: 5px;
-    }
+	#menu {
+		margin-left: 50px;
+	}
+	#logo {
+		margin-left: 100px;
+	}
+	#circle-container,
+	#circle-container2,
+	#about-container,
+	#history-container {
+		margin-left: 5px;
+	}
 }
 
 @media screen and (max-width: 376px) {
-
-    #left-testimonials,
-    #right-testimonials, #left-about-us, #history {
-        margin-left: 10px;
-    }
-
-    #circle-container,
-    #circle-container2, #about-container,
-    #history-container {
-        margin-left: 10px;
-        padding: 5px;
-    }
+	#left-testimonials,
+	#right-testimonials,
+	#left-about-us,
+	#history {
+		margin-left: 10px;
+	}
+	#circle-container,
+	#circle-container2,
+	#about-container,
+	#history-container {
+		margin-left: 10px;
+		padding: 5px;
+	}
 }
 
 @media screen and (max-width: 344px) {
-    #menu {
-        margin-left: 20px;
-    }
+	#menu {
+		margin-left: 20px;
+	}
 }
 
 @media screen and (max-width: 320px) {
-/*home and about page*/
-    #left-testimonials,
-    #right-testimonials, #left-about-us, #history {
-        margin-left: 0;
-    }
-
-    #logo {
-        margin-left: 50px;
-    }
-
-    #circle-container,
-    #circle-container2, #about-container,
-    #history-container {
-        padding: 0;
-        margin-left: 0;
-    }
-
-    #house-map {
-        margin-left: 30px;
-    }
+	/*home and about page*/
+	#left-testimonials,
+	#right-testimonials,
+	#left-about-us,
+	#history {
+		margin-left: 0;
+	}
+	#logo {
+		margin-left: 50px;
+	}
+	#circle-container,
+	#circle-container2,
+	#about-container,
+	#history-container {
+		padding: 0;
+		margin-left: 0;
+	}
+	#house-map {
+		margin-left: 30px;
+	}
 }
