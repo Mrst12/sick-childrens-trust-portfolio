@@ -354,7 +354,7 @@ h4 {
 /*form section*/
 
 #form-section {
-    height: 900px;
+    height: auto;
 }
 
 #donate-form {
@@ -455,6 +455,12 @@ input:hover {
         margin-top: 150px;
     }
 
+    /*donate page*/
+    .donation{
+        margin: 20px 50px;
+    }
+
+
 }
 
 @media screen and (max-width: 920px) {
@@ -535,6 +541,11 @@ input:hover {
         border-right: none;
 
     }
+
+    /*donate page*/
+    .donation {
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -558,6 +569,11 @@ input:hover {
     #map-img {
         margin-top: 50px;
     }
+
+    /*donate page*/
+    .donation {
+        margin: 20px;
+    }
 }
 
 @media screen and (max-width: 624px) {
@@ -579,6 +595,7 @@ input:hover {
 }
 
 @media screen and (max-width: 548px) {
+    /*home and about pages*/
     #logo {
         margin-left: 175px;
     }
@@ -596,6 +613,7 @@ input:hover {
 }
 
 @media screen and (max-width: 500px) {
+   /*home and about pages*/
     #menu {
         letter-spacing: 0;
     }
