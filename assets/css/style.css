@@ -280,16 +280,19 @@ h2 {
 
 #houses {
     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
 }
 
 #house-map {
-    width: 50%;
+    width: 100%;
 }
 
 #map-img {
     height: auto;
     max-width: 100%;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 #labels p {
@@ -297,6 +300,7 @@ h2 {
 }
 
 #labels {
+    width: 100%;
     text-align: center;
     margin: 40px 40px 40px 80px;
     border: 1px solid #CF2C91;
@@ -439,14 +443,22 @@ input:hover {
 
 @media screen and (max-width: 1024px) {
 
+    /*home and about page*/
     #circle-container,
     #circle-container2 {
+        margin-top: 150px;
+    }
+
+    /*houses page*/
+    #map-img {
+        max-width: 110%;
         margin-top: 150px;
     }
 
 }
 
 @media screen and (max-width: 920px) {
+    /*home and about pages*/
     #menu {
         clear: left;
         float: left;
@@ -460,7 +472,7 @@ input:hover {
     }
 
     #testimonials,
-    #about-us {
+    #about-us, #houses {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -501,9 +513,32 @@ input:hover {
     .our-history p {
         text-align: center;
     }
+
+    /*houses page*/
+    #map-img {
+        max-width: 80%;
+        
+    }
+
+    #house-map {
+        margin-left: 100px;
+    }
+
+    h2 {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    #labels {
+        margin: 0 0 50px 0;
+        border-left: none;
+        border-right: none;
+
+    }
 }
 
 @media screen and (max-width: 768px) {
+    /*home and about page*/
     #logo {
         margin-left: 300px;
     }
@@ -518,9 +553,15 @@ input:hover {
     #history-container {
         margin-left: 200px;
     }
+
+    /*houses page*/
+    #map-img {
+        margin-top: 50px;
+    }
 }
 
 @media screen and (max-width: 624px) {
+    /*home and about pages*/
     #menu {
         margin-left: 150px;
     }
@@ -568,12 +609,18 @@ input:hover {
 }
 
 @media screen and (max-width: 459px) {
+    /*home and about pages*/
     #menu li {
         margin-right: 20px;
     }
 
     #logo {
         margin-left: 150px;
+    }
+
+    /*houses page*/
+    #house-map {
+        margin-left: 50px;
     }
 }
 
@@ -629,7 +676,7 @@ input:hover {
 }
 
 @media screen and (max-width: 320px) {
-
+/*home and about page*/
     #left-testimonials,
     #right-testimonials, #left-about-us, #history {
         margin-left: 0;
@@ -644,5 +691,9 @@ input:hover {
     #history-container {
         padding: 0;
         margin-left: 0;
+    }
+
+    #house-map {
+        margin-left: 30px;
     }
 }
