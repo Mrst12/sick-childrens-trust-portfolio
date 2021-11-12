@@ -460,6 +460,9 @@ input:hover {
         margin: 20px 50px;
     }
 
+    #thankyou {
+        height: 400px;
+    }
 
 }
 
