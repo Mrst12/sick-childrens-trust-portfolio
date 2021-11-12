@@ -11,7 +11,7 @@ The aim of this website is to raise the profile of the Sick Children's Trust and
 
 ## User Experience (UX)
 
-- ### user stories
+- ### User Stories
     - #### First Time User Goals
         1. As a First time user, I want to easily navigate around the website.
         2. As a first time user, I want the content to be easily understandable and relevant.
@@ -25,6 +25,22 @@ The aim of this website is to raise the profile of the Sick Children's Trust and
     - #### Frequent User Goals
         1. As a frequent user, I want content to remain accessible.
         2. As a frequent user, I want content to have been updated where relevant.
+
+- ### Design
+    - #### Colour Scheme
+        - There are 3 main colours used throughout the site to reflect the actual Sick Children's Trust website
+        These are:
+![#CF2C91](./assets/design/pink-colour.png)
+![#25457E](./assets/design/blue-color.png)
+![#fff](./assets/design/white-colour.png)
+
+- ### Typography
+    - The typography used throughout the site is Nunito font, with a backup of sans-serif, should it fail. I used this as it is then the same font as the Sick Children's Trust website.
+    - The text colour used is also the same as the Trust's site which is
+![#0A0A0A](./assets/design/text-colour.png)
+
+- ### Images
+    - The images used have been taken off the Sick Children's website, and are related to the content of the page.
     
 
 
