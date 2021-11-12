@@ -1,5 +1,12 @@
 # Sick Children's Trust
 
+[View the live site here](https://mrst12.github.io/sick-childrens-trust-portfolio/)
+
+[View my Github here](https://github.com/Mrst12/sick-childrens-trust-portfolio)
+
+## Final Design
+![responsive images](./assets/design/am-i-responsive.png)
+
 ## Introduction
 
 In August 2013 My nearly two year old daughter needed open heart surgery at Leeds General Infirmary, to save her life. She was born with Tetrology of Fallots, she underwent her first heart surgery at 8 weeks old where they fitted a temporary shunt.
