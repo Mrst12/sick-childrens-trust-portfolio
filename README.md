@@ -19,19 +19,11 @@ The aim of this website is to raise the profile of the Sick Children's Trust and
 ## User Experience (UX)
 
 - ### User Stories
-    - #### First Time User Goals
-        1. As a First time user, I want to easily navigate around the website.
-        2. As a first time user, I want the content to be easily understandable and relevant.
-        3. As a first time user, I want to know that the company is trustworthy, and genuine via other users testimonials.
-        4. As a first time user, I want to see the social side of the company with links to their pages.
-
-    - #### Returning User Goals
-        1. As a returning user, I want to find all relevant information and have access to a contact, should I have a specific question.
-        2. As a returning user, I want upto date information and support.
-
-    - #### Frequent User Goals
-        1. As a frequent user, I want content to remain accessible.
-        2. As a frequent user, I want content to have been updated where relevant.
+    
+        1. As a user, I want to easily navigate around the website.
+        2. As a user, I want the content to be easily understandable and relevant.
+        3. As a user, I want to know that the company is trustworthy, and genuine via other users testimonials.
+        4. As a user, I want to see the social side of the company with links to their pages.
 
 - ### Design
     - #### Colour Scheme
