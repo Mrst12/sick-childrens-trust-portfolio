@@ -87,10 +87,28 @@ The aim of this website is to raise the profile of the Sick Children's Trust and
 ![thankyou page](./assets/design/thankyou.png)
 
 ## Technologies used
+### Languages
 
 - HTML
 - CSS
+### Programmes used
+- Balsamiq
+    - For the wireframes.
+- Git
+    - For version control, commiting and pushing to Github.
+- Github
+    - For storing the repository, files and images pushed from Gitpod.
+- Gitpod
+    - IDE used to code the website.
+- Chrome developer tools
+    - For checking compatibilty, troubleshooting and editing code.
+- Am I responsive
+    - Used to test responsiveness of the website at different screen sizes.
+- Google Fonts
+    - Used for the font of the website.
+
 
 ## Testing
+
 ## Deployment
 ## Credits
