@@ -101,6 +101,41 @@ The aim of this website is to raise the profile of the Sick Children's Trust and
 
 
 ## Testing
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+![HTMl test](./assets/screenshots/html-test.png)
+![CSS test](./assets/screenshots/css-test.png)
+
+### Lighthouse
+- The site was tested through Lighthouse
+![Lighthouse results](./assets/screenshots/lighthouse.png)
+
+### Devices
+- The site was tested on **Chrome**, **Safari**, and **Edge**.
+- It was tested on an iphone 7, and ipad, as well as my desktop computer.
+
+### Testing User Stories
+- 1. As a user, I want to easily navigate around the website.
+    - The top navigational bar is clear and uncluttered for easy navigation, and
+    is the same on every page.
+- 2. As a user, I want the content to be easily understandable and relevant.
+    - The content is kept to a minimum and links to the proper Sick Children's Trust website
+    so users can choose the content.
+- 3. As a user, I want to know that the company is trustworthy, and genuine via other users testimonials.
+    - The Home page is testimonials for the Sick Childrens Trust, with links to the genuine stories.
+- 4. As a user, I want to see the social side of the company with links to their pages.
+    - The footer on each page has links to the social media side of the Sick Children's Trust.
+
+### Known bugs
+- The lighthouse report threw up an error 'Displays images with incorrect aspect ratio'
+    - This is relating to the logo, I tried to resize the image, but lighthouse kept changing the dimensions, when the correct ratio was reached the logo was out of place and the navigational bar didn't look right.
+- On mobile devices like iphone the pages are slightly to the right, tried to correct on developer tools, but it threw everything else out of sync.
+
+### Functionality
+- All links have been tested and are accessible.
+- All links open in a new page so users can return to the main site.
+- All links have been hovered over to test they work.
+- All images load as intended.
+
 
 ## Deployment
 ## Credits
