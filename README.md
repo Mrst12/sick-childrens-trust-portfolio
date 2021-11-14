@@ -49,16 +49,6 @@ The aim of this website is to raise the profile of the Sick Children's Trust and
 - ### Images
     - The images used have been taken off the Sick Children's website, and are related to the content of the page.
     
-
-
-
-
-
-
-
-
-
-
 #### Wireframes
     
 [Desktop wireframe for the homepage](./assets/wireframes/home-desktop.png)
@@ -77,11 +67,25 @@ The aim of this website is to raise the profile of the Sick Children's Trust and
 
 [Tablet/mobile wireframe for the donate page](./assets/wireframes/donate-tablet-mobile.png)
     
-
-
-
-
 ## Features
+
+- The site consists of 4 pages: **Home**, **About**, **Houses**, and **Donate**, there is also an additional **Thankyou page**.
+- Each page has a consitent design **Nav-bar with logo**, **Top paragraph bar**, **Footer containing social links and copyright**
+- Interactive navigational bar
+![nav-bar image](./assets/screenshots/navbar.png)
+- The logo on the left will also take you back to the home page from any of the pages.
+- The nav-bar has a line under to show which page you are on, and also contains a hover effect.
+![hover image](./assets/screenshots/hover.png)
+- Interactive footer will take you directly to the social sites of the Sick Children's Trust.
+![footer image](./assets/screenshots/footer.png)
+- The Home page has links to the full testimonial stories on the Sick Children's Trust.
+![testimonial links](./assets/screenshots/testimonial-link.png)
+- The Houses page has links to each of the different houses on the Sick Children's website so more information can be gained. Each link is colour coded the same as the map.
+![house links](./assets/screenshots/house-links.png)
+- The Donate page will take you to a thankyou page when you click the donate button.
+
+![thankyou page](./assets/design/thankyou.png)
+
 ## Technologies used
 
 - HTML
