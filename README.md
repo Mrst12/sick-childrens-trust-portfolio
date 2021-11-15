@@ -136,6 +136,28 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - All links have been hovered over to test they work.
 - All images load as intended.
 
-
 ## Deployment
+- The project was deployed to Github pages using the following steps:
+1. Log into Github and locate the [Github repository](https://github.com/Mrst12/sick-childrens-trust-portfolio).
+2. Click on the settings icon at the top of the repository.
+3. Scroll down until you come to the Github pages section
+    - On this part it says it now has it's own dedicated tab and to click check it out click this.
+4. Where it says **source** select **main**, next to this should say root.
+5. Click save, then refresh the page.
+
+### Forking the repository
+1. Log into the Github repository.
+2. Underneath your avatar is a button labelled **Fork**, click this.
+3. You should have your own copy now.
+
+### Cloning the repository
+1. Log into Github and locate the repository.
+2. Under the repository name click the button labelled **code**.
+3. You will see an option to clone or download.
+4. Copy the url for cloning by clicking the clipboard icon.
+5. Launch gitpod or your own choice of directory.
+6. Open Gitbash
+7. Change the current working directory to the location you want the cloned directory to be.
+8. Type git clone and paste the Url from step 4. 
+9. Press enter to create the cloned directory.
 ## Credits
