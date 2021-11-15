@@ -154,7 +154,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Known bugs
 - The lighthouse report threw up an error 'Displays images with incorrect aspect ratio'
     - This is relating to the logo, I tried to resize the image, but lighthouse kept changing the dimensions, when the correct ratio was reached the logo was out of place and the navigational bar didn't look right.
-- On mobile devices like iphone the pages are slightly to the right, tried to correct on developer tools, but it threw everything else out of sync.
+- On mobile devices like iphone the images are slightly to the right, tried to correct on developer tools, but it didnt look right.
 
 ### Functionality
 - All links have been tested and are accessible.
