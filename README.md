@@ -16,6 +16,32 @@ We spent the whole day at my daughters bedside in intensive care, then high depe
 It was one act of kindness that will never be forgotten from the Sick Children's Trust.
 The aim of this website is to raise the profile of the Sick Children's Trust and broaden the scope to show people they are there if they should ever need their help, also most importantly give something back.
 
+## CONTENTS
+- [User Experience](#user-experience-ux)
+    - [User Stories](#user-stories)
+- [Design](#design)
+    - [Colour Scheme](#colour-scheme)
+    - [Typography](#typography)
+    - [Images](#images)
+- [Wireframes](#wireframes)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+    - [Languages](#languages)
+    - [Programmes Used](#programmes-used)
+- [Testing](#testing)
+    - [Lighthouse](#lighthouse)
+    - [Devices](#devices)
+    - [Testing User Stories](#testing-user-stories)
+    - [Known Bugs](#known-bugs)
+    - [Functionality](#functionality)
+- [Deployment](#deployment)
+    - [Forking The Repository](#forking-the-repository)
+    - [Cloning The Repository](#cloning-the-repository)
+- [Credits](#credits)
+    - [Code](#code)
+    - [Acknowledgements](#acknowledgements)
+
+
 ## User Experience (UX)
 
 - ### User Stories
