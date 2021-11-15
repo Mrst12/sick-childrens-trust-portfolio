@@ -161,3 +161,17 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 8. Type git clone and paste the Url from step 4. 
 9. Press enter to create the cloned directory.
 ## Credits
+
+### Code
+- [Sick Children's Trust Website](https://www.sickchildrenstrust.org/)
+    - For content, and images. This site is linked via my site. Permission was gained via email to access and use the material.
+- [W3schools](https://www.w3schools.com/)
+    - For more indepth explanations of HTML and CSS
+- Love running project was my initial inspiration, but the styling changed as my confidence grew with layout structures.
+
+### Acknowledgements:
+- Code institute for course material and content
+- Everybody on the slack community for support, advice, guidance and patience.
+- My mentor for assistance and advice on planning and final submission feedback.
+- My husband and children for their patience, support and understanding.
+
