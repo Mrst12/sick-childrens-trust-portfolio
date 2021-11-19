@@ -100,7 +100,7 @@ h1 {
 #right-testimonials {
 	padding-top: 30px;
 	width: 100%;
-	margin-left: 30px;
+	margin-left: 50px;
 }
 
 #center-testimonials {
@@ -141,7 +141,7 @@ hr {
 	background-color: #CF2C91;
 }
 
-#circle-container {
+#center-outer {
 	width: 350px;
 	height: 350px;
 	padding: 30px;
@@ -150,9 +150,10 @@ hr {
 	border-width: 1px;
 	border-radius: 50%;
 	margin-top: 50px;
+	margin-left: 50px;
 }
 
-#circle-container2 {
+#center-outer2 {
 	width: 350px;
 	height: 350px;
 	padding: 30px;
@@ -161,6 +162,7 @@ hr {
 	border-width: 1px;
 	border-radius: 50%;
 	margin-top: 50px;
+	margin-left: 50px;
 }
 
 #circle-image {
@@ -225,6 +227,7 @@ i:hover {
 #history {
 	padding-top: 30px;
 	width: 100%;
+	margin-left: 50px;
 }
 
 .left-about {
@@ -245,6 +248,7 @@ i:hover {
 
 .our-history p {
 	text-align: right;
+	padding: 10px 0;
 }
 
 #center-images {
@@ -262,6 +266,7 @@ i:hover {
 	border-radius: 50%;
 	margin-top: 50px;
 	margin-bottom: 50px;
+	margin-left: 50px;
 }
 
 #history-image {
@@ -452,9 +457,19 @@ input:hover {
 @media screen and (max-width: 1024px) {
 
 	/*home and about page*/
-	#circle-container,
-	#circle-container2 {
+	#center-outer,
+	#center-outer2,
+	#about-container,
+	#history-container {
 		margin-top: 150px;
+		margin-left: 30px;
+	}
+	#history {
+		margin-left: 50px;
+	}
+
+	#left-about-us {
+		margin-right: 50px;
 	}
 
 	/*houses page*/
@@ -519,8 +534,8 @@ input:hover {
 		text-align: center;
 	}
 
-	#circle-container,
-	#circle-container2,
+	#center-outer,
+	#center-outer2,
 	#about-container,
 	#history-container {
 		margin-left: 250px;
@@ -568,8 +583,8 @@ input:hover {
 		margin-left: 225px;
 	}
 
-	#circle-container,
-	#circle-container2,
+	#center-outer,
+	#center-outer2,
 	#about-container,
 	#history-container {
 		margin-left: 200px;
@@ -597,8 +612,8 @@ input:hover {
 		margin-left: 225px;
 	}
 
-	#circle-container,
-	#circle-container2,
+	#center-outer,
+	#center-outer2,
 	#about-container,
 	#history-container {
 		margin-left: 125px;
@@ -616,8 +631,8 @@ input:hover {
 		margin-left: 125px;
 	}
 
-	#circle-container,
-	#circle-container2,
+	#center-outer,
+	#center-outer2,
 	#about-container,
 	#history-container {
 		margin-left: 100px;
@@ -631,8 +646,8 @@ input:hover {
 		letter-spacing: 0;
 	}
 
-	#circle-container,
-	#circle-container2,
+	#center-outer,
+	#center-outer2,
 	#about-container,
 	#history-container {
 		margin-left: 50px;
@@ -658,15 +673,33 @@ input:hover {
 
 @media screen and (max-width: 426px) {
 
-	#circle-container,
-	#circle-container2,
+	#center-outer,
+	#center-outer2,
 	#about-container,
 	#history-container {
 		margin-left: 30px;
+		padding: 5px;
 	}
 
 	#menu {
 		margin-left: 100px;
+	}
+
+	#left-about-us {
+		margin-left:0;
+	}
+	#history {
+		margin-left: 10px;
+	}
+
+	.our-history p {
+		padding: 20px 0;
+	}
+	#left-testimonials {
+		margin-left: 0;
+	}
+	#right-testimonials {
+		margin-left: 10px;
 	}
 }
 
@@ -679,8 +712,8 @@ input:hover {
 		margin-left: 100px;
 	}
 
-	#circle-container,
-	#circle-container2,
+	#center-outer,
+	#center-outer2,
 	#about-container,
 	#history-container {
 		margin-left: 5px;
@@ -710,8 +743,8 @@ input:hover {
 		margin-left: 10px;
 	}
 
-	#circle-container,
-	#circle-container2,
+	#center-outer,
+	#center-outer2,
 	#about-container,
 	#history-container {
 		margin-left: 10px;
@@ -739,8 +772,8 @@ input:hover {
 		margin-left: 50px;
 	}
 
-	#circle-container,
-	#circle-container2,
+	#center-outer,
+	#center-outer2,
 	#about-container,
 	#history-container {
 		padding: 0;
