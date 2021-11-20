@@ -354,14 +354,17 @@ h4 {
 }
 
 #thankyou {
-	height: 300px;
+	height: 100vh;
 	width: 100%;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	overflow: hidden;
-	position: relative;
 	background-color: #CF2C91;
-	font-size: 1.25em;
+	font-size: 2em;
 }
+
+
 
 
 /*form section*/
@@ -496,6 +499,10 @@ input:hover {
 
 	#thankyou {
 		height: 400px;
+		padding-top: 100px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 }
 
