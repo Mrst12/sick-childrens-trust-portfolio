@@ -402,11 +402,21 @@ input[type=email] {
 input[type=tel] {
 	width: 100%;
 	padding: 12px 20px;
-	margin: 20px 0;
+	margin: 10px 0;
 	box-sizing: border-box;
 	border: 1px solid #25457E;
 	border-radius: 10px;
 	font-size: 100%;
+}
+
+input[type=radio] {
+	margin: 10px;
+}
+
+input[type=number]{
+	margin-top: 10px;
+	font-size: 100%;
+	padding: 5px 0 5px 12px;
 }
 
 #amount {
@@ -416,8 +426,9 @@ input[type=tel] {
 }
 
 .donation {
-	display: inline-block;
-	margin: 20px 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	padding: 20px;
 }
 
