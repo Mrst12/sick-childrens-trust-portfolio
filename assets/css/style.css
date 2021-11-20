@@ -354,7 +354,7 @@ h4 {
 }
 
 #thankyou {
-	height: 100vh;
+	height: 500px;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -416,7 +416,7 @@ input[type=radio] {
 	margin: 10px;
 }
 
-input[type=number]{
+input[type=number] {
 	margin-top: 10px;
 	font-size: 100%;
 	padding: 5px 0 5px 12px;
@@ -478,6 +478,7 @@ input:hover {
 		margin-top: 150px;
 		margin-left: 30px;
 	}
+
 	#history {
 		margin-left: 50px;
 	}
@@ -499,10 +500,10 @@ input:hover {
 
 	#thankyou {
 		height: 400px;
-		padding-top: 100px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		font-size: 1.25em;
 	}
 }
 
@@ -704,8 +705,9 @@ input:hover {
 	}
 
 	#left-about-us {
-		margin-left:0;
+		margin-left: 0;
 	}
+
 	#history {
 		margin-left: 10px;
 	}
@@ -713,9 +715,11 @@ input:hover {
 	.our-history p {
 		padding: 20px 0;
 	}
+
 	#left-testimonials {
 		margin-left: 0;
 	}
+
 	#right-testimonials {
 		margin-left: 10px;
 	}
