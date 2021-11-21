@@ -27,7 +27,6 @@ h1 {
   width: 200px;
 }
 
-
 /*navigational elements*/
 
 #menu {
@@ -62,7 +61,6 @@ h1 {
   border-bottom: 1px solid #25457E;
 }
 
-
 /*top section styling*/
 
 #top-header {
@@ -80,7 +78,6 @@ h1 {
   margin: 30px;
   color: #fff;
 }
-
 
 /*testimonial section*/
 
@@ -177,7 +174,6 @@ hr {
   border-radius: 50%;
 }
 
-
 /*footer section*/
 
 footer {
@@ -208,7 +204,6 @@ footer p {
 i:hover {
   background-color: #CF2C91;
 }
-
 
 /*About page*/
 
@@ -281,7 +276,6 @@ i:hover {
   border-radius: 50%;
 }
 
-
 /*houses page*/
 
 h2 {
@@ -337,7 +331,6 @@ h2 {
   color: orange;
 }
 
-
 /*donate page*/
 
 h4 {
@@ -359,7 +352,6 @@ h4 {
   background-color: #CF2C91;
   font-size: 2em;
 }
-
 
 /*form section*/
 
@@ -458,7 +450,6 @@ input:hover {
   background-color: #CF2C91;
   color: #fff;
 }
-
 
 /*media queries*/
 
@@ -612,6 +603,7 @@ input:hover {
   .donation {
     margin: 20px;
   }
+
   #thankyou {
     font-size: 2em;
     padding-left: 20px;
@@ -635,6 +627,8 @@ input:hover {
   #history-container {
     margin-left: 125px;
   }
+
+  /*Donate page*/
   #thankyou {
     padding-left: 10px;
   }
@@ -693,6 +687,7 @@ input:hover {
 
 @media screen and (max-width: 426px) {
 
+  /*Home and About pages*/
   #center-outer,
   #center-outer2,
   #about-container,
@@ -727,6 +722,8 @@ input:hover {
 }
 
 @media screen and (max-width: 394px) {
+  
+  /*Home and About page*/
   #menu {
     margin-left: 50px;
   }
@@ -759,6 +756,7 @@ input:hover {
 
 @media screen and (max-width: 376px) {
 
+  /*Home and About page*/
   #left-testimonials,
   #right-testimonials,
   #left-about-us,
@@ -776,6 +774,8 @@ input:hover {
 }
 
 @media screen and (max-width: 344px) {
+  
+  /*Home and about page*/
   #menu {
     margin-left: 20px;
   }
@@ -803,6 +803,7 @@ input:hover {
     margin-left: 0;
   }
 
+  /*Houses page*/
   #house-map {
     margin-left: 30px;
   }
