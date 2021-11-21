@@ -635,8 +635,8 @@ input:hover {
   #history-container {
     margin-left: 125px;
   }
-  .thankyou-page {
-    padding: 10px;
+  #thankyou {
+    padding-left: 10px;
   }
 }
 
