@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -349,7 +350,7 @@ h4 {
 }
 
 #thankyou {
-  height: 500px;
+  height: 600px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -357,6 +358,7 @@ h4 {
   overflow: hidden;
   background-color: #CF2C91;
   font-size: 2em;
+  padding: 10px;
 }
 
 
@@ -462,6 +464,7 @@ input:hover {
 /*media queries*/
 
 @media screen and (max-width: 1024px) {
+
   /*home and about page*/
   #center-outer,
   #center-outer2,
@@ -470,21 +473,26 @@ input:hover {
     margin-top: 150px;
     margin-left: 30px;
   }
+
   #history {
     margin-left: 50px;
   }
+
   #left-about-us {
     margin-right: 50px;
   }
+
   /*houses page*/
   #map-img {
     max-width: 110%;
     margin-top: 150px;
   }
+
   /*donate page*/
   .donation {
     margin: 20px 50px;
   }
+
   #thankyou {
     height: 400px;
     display: flex;
@@ -495,17 +503,20 @@ input:hover {
 }
 
 @media screen and (max-width: 920px) {
+
   /*home and about pages*/
   #menu {
     clear: left;
     float: left;
     margin-left: 300px;
   }
+
   #logo {
     margin-left: 350px;
     margin-top: 30px;
     margin-bottom: 0;
   }
+
   #testimonials,
   #about-us,
   #houses {
@@ -515,12 +526,14 @@ input:hover {
     justify-content: center;
     align-content: center;
   }
+
   #left-testimonials,
   #right-testimonials,
   #left-about-us,
   #history {
     margin-left: 30px;
   }
+
   .left-side-testimonials,
   .right-side-testimonials,
   .left-about,
@@ -530,9 +543,11 @@ input:hover {
     text-align: center;
     margin-left: 20px;
   }
+
   .right-side-testimonials p {
     text-align: center;
   }
+
   #center-outer,
   #center-outer2,
   #about-container,
@@ -540,25 +555,31 @@ input:hover {
     margin-left: 250px;
     margin-top: 30px;
   }
+
   .our-history p {
     text-align: center;
   }
+
   /*houses page*/
   #map-img {
     max-width: 80%;
   }
+
   #house-map {
     margin-left: 100px;
   }
+
   h2 {
     margin-top: 30px;
     margin-bottom: 0;
   }
+
   #labels {
     margin: 0 0 50px 0;
     border-left: none;
     border-right: none;
   }
+
   /*donate page*/
   .donation {
     padding: 0;
@@ -566,23 +587,28 @@ input:hover {
 }
 
 @media screen and (max-width: 768px) {
+
   /*home and about page*/
   #logo {
     margin-left: 300px;
   }
+
   #menu {
     margin-left: 225px;
   }
+
   #center-outer,
   #center-outer2,
   #about-container,
   #history-container {
     margin-left: 200px;
   }
+
   /*houses page*/
   #map-img {
     margin-top: 50px;
   }
+
   /*donate page*/
   .donation {
     margin: 20px;
@@ -590,29 +616,38 @@ input:hover {
 }
 
 @media screen and (max-width: 624px) {
+
   /*home and about pages*/
   #menu {
     margin-left: 150px;
   }
+
   #logo {
     margin-left: 225px;
   }
+
   #center-outer,
   #center-outer2,
   #about-container,
   #history-container {
     margin-left: 125px;
   }
+  .thankyou-page {
+    padding: 10px;
+  }
 }
 
 @media screen and (max-width: 548px) {
+
   /*home and about pages*/
   #logo {
     margin-left: 175px;
   }
+
   #menu {
     margin-left: 125px;
   }
+
   #center-outer,
   #center-outer2,
   #about-container,
@@ -622,10 +657,12 @@ input:hover {
 }
 
 @media screen and (max-width: 500px) {
+
   /*home and about pages*/
   #menu {
     letter-spacing: 0;
   }
+
   #center-outer,
   #center-outer2,
   #about-container,
@@ -635,13 +672,16 @@ input:hover {
 }
 
 @media screen and (max-width: 459px) {
+
   /*home and about pages*/
   #menu li {
     margin-right: 20px;
   }
+
   #logo {
     margin-left: 150px;
   }
+
   /*houses page*/
   #house-map {
     margin-left: 50px;
@@ -649,6 +689,7 @@ input:hover {
 }
 
 @media screen and (max-width: 426px) {
+
   #center-outer,
   #center-outer2,
   #about-container,
@@ -656,21 +697,27 @@ input:hover {
     margin-left: 30px;
     padding: 5px;
   }
+
   #menu {
     margin-left: 100px;
   }
+
   #left-about-us {
     margin-left: 0;
   }
+
   #history {
     margin-left: 10px;
   }
+
   .our-history p {
     padding: 20px 0;
   }
+
   #left-testimonials {
     margin-left: 0;
   }
+
   #right-testimonials {
     margin-left: 10px;
   }
@@ -680,21 +727,25 @@ input:hover {
   #menu {
     margin-left: 50px;
   }
+
   #logo {
     margin-left: 100px;
   }
+
   #center-outer,
   #center-outer2,
   #about-container,
   #history-container {
     margin-left: 5px;
   }
+
   #left-testimonials,
   #right-testimonials,
   #left-about-us,
   #history {
     margin-left: 20px;
   }
+
   .left-side-testimonials,
   .right-side-testimonials,
   .left-about,
@@ -704,12 +755,14 @@ input:hover {
 }
 
 @media screen and (max-width: 376px) {
+
   #left-testimonials,
   #right-testimonials,
   #left-about-us,
   #history {
     margin-left: 10px;
   }
+
   #center-outer,
   #center-outer2,
   #about-container,
@@ -726,6 +779,7 @@ input:hover {
 }
 
 @media screen and (max-width: 320px) {
+
   /*home and about page*/
   #left-testimonials,
   #right-testimonials,
@@ -733,9 +787,11 @@ input:hover {
   #history {
     margin-left: 0;
   }
+
   #logo {
     margin-left: 50px;
   }
+
   #center-outer,
   #center-outer2,
   #about-container,
@@ -743,6 +799,7 @@ input:hover {
     padding: 0;
     margin-left: 0;
   }
+
   #house-map {
     margin-left: 30px;
   }
