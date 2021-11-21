@@ -358,7 +358,6 @@ h4 {
   overflow: hidden;
   background-color: #CF2C91;
   font-size: 2em;
-  padding: 10px;
 }
 
 
@@ -612,6 +611,10 @@ input:hover {
   /*donate page*/
   .donation {
     margin: 20px;
+  }
+  #thankyou {
+    font-size: 2em;
+    padding-left: 20px;
   }
 }
 
